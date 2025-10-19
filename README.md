@@ -6,9 +6,9 @@ The project adheres to accessibility standards, supports keyboard navigation, an
 
 <b>Live Demo</b>
 
-Live URL: https://your-live-demo-link.netlify.app
+Live URL: https://sammuaks2.github.io/Testale_profile_card/
 
-GitHub Repository: https://github.com/yourusername/profile-card
+GitHub Repository: https://github.com/SamMuaks2/Testale_profile_card
 
 
 <b>Project Overview</b>
