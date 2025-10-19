@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Profile Card</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main>
+        <article class="profile-card" data-testid="test-profile-card">
+            <figure class="avatar-section">
+                <img src="images/Mohri-profile.jpg" alt="Mohri's profile photo" data-testid="test-user-avatar" />
+            </figure>
+
+            <div class="content-section">
+                <header>
+                    <h2 data-testid="test-user-name">Mohri Samuel Muakpo</h2>
+                </header>
+
+                <section class="bio-section">
+                    <p data-testid="test-user-bio">
+                        My name is Mohri Samuel Muakpo, I do three amazing things:
+                    </p>
+                    <ol>
+                        <li>I help businesses find their current problem causes, and fix those problems while aligning
+                            to their
+                            business goals and policies.</li>
+                        <li>I connect businesses to the tools, people and resources they need to move a step closer to
+                            their
+                            goals.</li>
+                        <li>I also help businesses bring their ideas to life digitally.</li>
+                    </ol>
+                </section>
+
+                <section class="time-section">
+                    <p>
+                        Current Time (h:m:s):
+                        <span id="user-time" data-testid="test-user-time"></span>
+                    </p>
+                </section>
+
+                <nav aria-label="Social links" data-testid="test-user-social-links">
+                    <ul>
+                        <li><a href="https://x.com/@SamMuaks2" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-twitter">Twitter</a></li>
+                        <li><a href="https://github.com/SamMuaks2" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-github">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/mohri-muakpo" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-linkedin">LinkedIn</a></li>
+                        <li><a href="https://wa.me/+2347039479761" target="_blank" rel="noopener noreferrer"
+                                data-testid="test-user-social-whatsapp">WhatsApp</a></li>
+                    </ul>
+                </nav>
+
+                <section aria-labelledby="hobbies-title" data-testid="test-user-hobbies">
+                    <h3 id="hobbies-title">Hobbies</h3>
+                    <ul>
+                        <li>Coding</li>
+                        <li>Playing Chess</li>
+                        <li>Listening to great music and instrumentals</li>
+                        <li>Photography and videography</li>
+                    </ul>
+                </section>
+
+                <section aria-labelledby="dislikes-title" data-testid="test-user-dislikes">
+                    <h3 id="dislikes-title">Dislikes</h3>
+                    <ul>
+                        <li>Procrastination</li>
+                        <li>Unclear Requirements</li>
+                        <li>Cluttered Code</li>
+                        <li>Unfaithfulness and lack of commitment</li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
